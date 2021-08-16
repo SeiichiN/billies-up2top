@@ -19,9 +19,11 @@ setInterval( function() {
   const currentYPos = window.pageYOffset; // 現在のスクロール量
   const winHeight = window.innerHeight;   // ブラウザの表示高さ
   if (currentYPos > winHeight) {
-    up2top_button.style.display = "block";
+    up2top_button.style.opacity = 1;
+    // up2top_button.style.display = "block";
   } else {
-    up2top_button.style.display = "none";
+    up2top_button.style.opacity = 0;
+    // up2top_button.style.display = "none";
   }
 }, 1000);
 
@@ -65,4 +67,4 @@ const scrollTop = function (elem, duration) {
 scrollTop('up2top-btn', 500);
 
 
-// 修正時刻: Mon Aug 16 21:12:24 2021
+// 修正時刻: Mon Aug 16 21:34:35 2021

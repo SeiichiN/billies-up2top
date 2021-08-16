@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+#up2top-btn {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#up2top-btn img {
+  box-shadow: none;
+}
+
+/* 修正時刻: Mon Aug 16 21:04:10 2021 */

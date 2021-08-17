@@ -4,7 +4,8 @@
   opacity: 0;
   position: fixed;
   right: 20px;
-  bottom: 20px;
+  bottom: 50px;
+  z-index: 999;
   transition: all 0.5s 0s ease-in-out;
 }
 
@@ -12,4 +13,4 @@
   box-shadow: none;
 }
 
-/* 修正時刻: Mon Aug 16 21:35:08 2021 */
+/* 修正時刻: Tue Aug 17 09:20:56 2021 */

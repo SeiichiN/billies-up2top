@@ -10,8 +10,8 @@ const up2top_btn = String()
                  + '</div>';
 
 // up2top_btn を <main>要素の下(<footer>要素の上) に設置。
-const main = document.querySelector('main');
-main.insertAdjacentHTML('afterend', up2top_btn);
+const body = document.querySelector('body');
+body.insertAdjacentHTML('afterbegin', up2top_btn);
 
 // 画面の高さ分以上スクロールしたら、up2topボタンが表示される。
 setInterval( function() {
@@ -67,4 +67,4 @@ const scrollTop = function (elem, duration) {
 scrollTop('up2top-btn', 500);
 
 
-// 修正時刻: Mon Aug 16 21:34:35 2021
+// 修正時刻: Tue Aug 17 09:28:15 2021

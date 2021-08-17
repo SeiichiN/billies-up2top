@@ -2,8 +2,8 @@
 /*
  * @wordpress-plugin
  * Plugin Name: Billies Up2Top
- * Description: Smooth scroll to Top. 
- * Version: 0.1
+ * Description: Smooth scroll to Top. このプラグインを有効化するだけです。
+ * Version: 0.2
  * Author: Seiichi Nukayama
  * Author URI: http://www.billies-works.com/
  */
@@ -19,4 +19,4 @@ add_action('wp_enqueue_scripts', 'billies_up2top_addfiles');
 
 
 
-/* 修正時刻: Mon Aug 16 20:02:04 2021 */
+/* 修正時刻: Tue Aug 17 09:26:56 2021 */

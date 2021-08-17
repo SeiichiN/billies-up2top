@@ -3,13 +3,13 @@
 
 'use strict';
 
-// up2top_btn オブジェクトの作成
+// up2top_btn
 const up2top_btn = String()
                  + '<div id="up2top-btn" class="gs-reveal">'
                  + '<img src="/wp-content/plugins/billies-up2top/up2top.png" alt="">'
                  + '</div>';
 
-// up2top_btn を <main>要素の下(<footer>要素の上) に設置。
+// up2top_btn を <body>要素のすぐ下に設置。
 const body = document.querySelector('body');
 body.insertAdjacentHTML('afterbegin', up2top_btn);
 
